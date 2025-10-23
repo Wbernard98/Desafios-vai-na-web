@@ -1,0 +1,171 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,500;0,700;1,100&family=Rock+Salt&family=Tektur:wdth,wght@75..100,400..900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+header {
+  background-image: url(/img/bf57dcfa0e524e75e29c2085369cc7db7f5bf5b9.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 80vh;
+}
+
+.logo {
+  background-color: rgba(0, 0, 0, 0.4);
+  width: 100%;
+  padding: 200px 40px 40px 40px;
+  display: inline-block;
+  text-align: center;
+  height: inherit;
+}
+.logo h1 {
+  font-family: "Roboto", sans-serif;
+  font-size: 3rem;
+  margin-bottom: 15px;
+  color: white;
+  text-align: center;
+}
+.logo p {
+  font-size: 1.1rem;
+  width: 55vw;
+  margin: 0 auto;
+  margin-bottom: 25px;
+  color: white;
+  text-align: center;
+}
+.logo button {
+  border-radius: 32px;
+  background-color: #66bb6a;
+  border: none;
+  padding: 6px;
+  padding: 15px 30px;
+  color: white;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.card {
+  padding: 50px 20px;
+  text-align: center;
+  background-color: #eef1ef;
+}
+
+article {
+  width: 220px;
+  height: 328px;
+  border: solid 1px #ccc;
+  background-color: white;
+  display: inline-block;
+  border-radius: 13px;
+  margin: 30px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+}
+article img {
+  width: 100%;
+  height: 50%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-top-left-radius: 13px;
+  border-top-right-radius: 13px;
+}
+article h3 {
+  font-size: 20px;
+  font-weight: bold;
+  padding: 7px;
+  margin-bottom: 3px;
+}
+article p {
+  font-size: 14px;
+  padding: 3px;
+  margin-bottom: 8px;
+}
+article button {
+  border-radius: 32px;
+  background-color: #66bb6a;
+  border: none;
+  padding: 6px;
+  padding: 12px 20px;
+  color: white;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+section {
+  width: 100%;
+  height: auto;
+  display: inline-block;
+  text-align: center;
+  background-color: #e8f5e9;
+}
+section h2 {
+  font-size: 30px;
+  font-weight: bold;
+  padding: 4px;
+  margin-top: 28px;
+}
+section p {
+  font-size: 16px;
+  padding: 7px;
+}
+
+.formulario-inscricao {
+  max-width: 450px;
+  margin: 0 auto;
+  padding: 30px;
+}
+.formulario-inscricao .formulario-inscricao__campos input[type=text],
+.formulario-inscricao .formulario-inscricao__campos input[type=email],
+.formulario-inscricao .formulario-inscricao__campos select {
+  width: 100%;
+  padding: 15px 20px;
+  border: 1px solid #cccccc;
+  border-radius: 14px;
+  background-color: white;
+  font-size: 16px;
+  box-sizing: border-box;
+  margin-bottom: 20px;
+  color: #333333;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+.formulario-inscricao select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background-image: url("data:image/svg+xml;charset=UTF-8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24' fill='none' stroke='%234CAF50' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpolyline points='6 9 12 15 18 9'%3E%3C/polyline%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: right 20px center;
+  background-size: 22px;
+}
+.formulario-inscricao .formulario-inscricao__botao {
+  width: 100%;
+  padding: 15px 30px;
+  border: none;
+  border-radius: 14px;
+  background-color: #66bb6a;
+  color: white;
+  font-size: 18px;
+  cursor: pointer;
+  font-weight: bold;
+  margin: 20px 0 20px 0;
+  transition: background-color 0.3s ease-in-out;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+.formulario-inscricao .formulario-inscricao__botao:hover {
+  background-color: #5aa55e;
+}
+
+footer {
+  width: 100%;
+  height: 25px;
+  display: inline-block;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background-color: #66bb6a;
+  color: white;
+  padding: 25px;
+}/*# sourceMappingURL=style.css.map */

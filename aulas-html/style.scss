@@ -1,0 +1,95 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "VALORANT", sans-serif;
+}
+@import url("https://fonts.cdnfonts.com/css/valorant");
+main {
+  font-family: "VALORANT", sans-serif;
+  height: 100vh;
+  padding-top: 150px;
+  text-align: center;
+  background-image: url(https://gametimes.com.br/wp-content/uploads/2020/07/valorant-pergunte-3-scaled.jpg);
+  background-repeat: no-repeat;
+}
+.form-container {
+  width: 450px;
+  display: inline-block;
+  border-radius: 20px;
+  padding: 40px 30px;
+  box-shadow: 0 4px 8px 0 rgba(130, 127, 127, 0.936);
+
+  h1 {
+    text-align: center;
+    margin-bottom: 25px;
+    font-size: 22px;
+    color: #f8f7f7;
+  }
+}
+form {
+  input[type="text"],
+  input[type="email"],
+  input[type="password"] {
+    display: block;
+    padding: 10px;
+    width: 100%;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 14px;
+  }
+  .input-row {
+    padding-top: 15px;
+    input {
+      width: 43%;
+      padding: 10px;
+      align-items: center;
+      border: 1px solid #ccc;
+      border-radius: 8px;
+      font-size: 14px;
+      display: inline-block;
+    }
+    input:first-child {
+      margin-right: 34px;
+    }
+    input:last-child {
+      margin-left: 16px;
+    }
+  }
+  .checkbox {
+    display: block;
+    text-align: center;
+    font-size: 12px;
+    color: #dfdbdb;
+    margin: 10px 0;
+    a {
+      color: #2764c0;
+      text-decoration: none;
+      font-weight: bold;
+      transition: 0.3s;
+      display: inline-block;
+
+      &:houver {
+        text-decoration: underline;
+      }
+    }
+  }
+}
+button {
+  background: #e23d3d;
+  color: #fff;
+  border: none;
+  width: 100%;
+  padding: 12px;
+  border-radius: 8px;
+  margin-top: 10px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+
+  &:hover {
+    background-color: darken(#e23d3d, 10%);
+  }
+}
